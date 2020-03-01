@@ -2,12 +2,8 @@
 
 import cgi
 import csv
-
-
 form = cgi.FieldStorage()
-
 color = form.getvalue('color')
-
 
 with open('cgi-bin/col.csv', 'r') as colorscsv:
     readCSV = csv.reader(colorscsv, delimiter=',')
