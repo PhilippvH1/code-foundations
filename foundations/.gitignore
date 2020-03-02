@@ -1,0 +1,6 @@
+databases/restaurants.bak
+databases/restaurants_in_kreuzberg.sql
+.vscode
+scrap/*
+student
+**/__pycache__
